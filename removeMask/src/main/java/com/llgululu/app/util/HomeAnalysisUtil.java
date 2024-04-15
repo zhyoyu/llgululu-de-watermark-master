@@ -20,8 +20,8 @@ public class HomeAnalysisUtil {
     private static final Pattern pattern4 = Pattern.compile("https://b23.tv/ep");
     private static final Pattern pattern5 = Pattern.compile("https://www.douyin.com/");
     // 下方两个文件地址主要要和python文件位置对应
-    private static final String BliPath = "C:\\Users\\咕噜咕噜哟\\Desktop\\文件\\python\\BliCraw.py";
-    private static final String DyPath = "C:\\Users\\咕噜咕噜哟\\Desktop\\文件\\python\\DyCraw.py";
+    private static final String BliPath = "F:\\my_workspace\\llgululu-de-watermark-master-master\\removeMask\\src\\main\\resources\\python\\BliCraw.py";
+    private static final String DyPath = "F:\\my_workspace\\llgululu-de-watermark-master-master\\removeMask\\src\\main\\resources\\python\\DyCraw.py";
 
     public static String getRedirectUrl(String path) {
         try {
@@ -97,4 +97,4 @@ public class HomeAnalysisUtil {
     }
 
 }
- 
+

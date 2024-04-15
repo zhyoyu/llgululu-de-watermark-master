@@ -1,5 +1,12 @@
 server:
   port: 8004
+#  ssl:
+#    key-store: classpath:spring_https_key.keystore  #类路径下的自签证书
+#    key-alias: spring_https_key # 证书别名
+#    key-store-password: 111111 #证书密码
+#    key-store-type: JKS # 证书类型
+#    enabled: true  # 开启证书验证
+
 spring:
   mvc:
     static-path-pattern: /static/**
@@ -10,7 +17,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     #    服务器上
     username: root
-    password: root
+    password: 680010
   redis:
     host: 127.0.0.1
     port: 6379
